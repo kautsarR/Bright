@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body {
+    font-family:'Poppins' !important;
+}
+
+/* Navbar Landing */
+
+.landing-page {
+    background: url('src/images/bg-lp.jpg') !important;
+    height: 850px;
+}
+
+.landing-page .navbar-landing img {
+    max-width: 80px;
+}
+
+.landing-page .navbar-landing .navbar-link {
+    margin-left: auto;
+}
+
+.landing-page .navbar-landing .navbar-link .navbar-nav .nav-item {
+    color: white;
+    margin-left: 30px;
+}
+
+.landing-page .navbar-landing .navbar-link .navbar-nav .nav-item .nav-link{
+    color: white;
+    font-size: 18px;
+}
+
+/* Container */
+
+.landing-page .container-fluid {
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.landing-page .container-fluid .title {
+    margin-top: 100px;
+}
+
+.landing-page .container-fluid .button {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.landing-page .container-fluid .btn-learn {
+    background-color: #0F00BA;
+    color: #FFF9F9;
+    padding: 7px 12px;
+    border-radius: 22px;
+}
+
+.landing-page .container-fluid .btn-goto {
+    color: #000000;
+    padding: 7px 12px;
+    border: solid #000000 2px;
+    border-radius: 22px;
+}
+
+/* About */
+
+.about {
+    background: url('src/images/bg-about.jpg');
+    height: 739px;
+}
+
+.about .banner img{
+    margin-top: 250px;
+}
+
+.about .col.title {
+    margin-top: 220px;
+    color: #FFFFFF;
+}
+
+.about .col h1 {
+    font-size: 50px;
+}
+
+.about .col h5 {
+    margin-top: 60px;
+    line-height: 45px;
+    font-size: 20px;
+}
+
+.about .col a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Class */
+
+.class {
+    background: url('src/images/bg-class.jpg');
+    height: 900px;
+}
+
+.class .col .card .banner {
+    background-color: #f2f2f2;
+    text-align: center;
+    
+}
+
+.class .col .card {
+    width: 240px !important;
+}
+
+.class .card img {
+    width: 140px;
+    
+}
