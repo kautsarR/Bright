@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 body {
     font-family:'Poppins' !important;
+    overflow-x: hidden;
 }
 
 /* Navbar Landing */
 
 .landing-page {
-    background: url('src/images/bg-lp.jpg') !important;
-    height: 850px;
+    background-image: url('src/images/bg-lp.jpg');
+    background-size: cover;
+    height: 910px;
 }
 
 .landing-page .navbar-landing img {
@@ -61,7 +63,8 @@ body {
 /* About */
 
 .about {
-    background: url('src/images/bg-about.jpg');
+    background-image: url('src/images/bg-about.jpg');
+    background-size: cover;
     height: 739px;
 }
 
@@ -96,17 +99,129 @@ body {
     height: 900px;
 }
 
+.class .col.classes h5 {
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.class .col.classes p {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.class .col.classes .col-4s .btn-learn-more {
+    box-sizing: border-box;
+    border-radius: 54px;
+    font-size: large;
+    padding : 10px 12px;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none;
+}
+
+.class .col.classes .col-4s {
+    margin-top: 30px;
+}
+
+.class .col.classes .col-4s img {
+    height: 20px;
+    margin-left: 22px;
+}
+
+.class .row .col.classes{
+    margin-top: 310px;
+}
+
 .class .col .card .banner {
     background-color: #f2f2f2;
     text-align: center;
-    
+}
+
+.class .col .card .card-body img {
+    height: 14px;
+}
+
+.class .col .card:first-child {
+    width: 180px !important;
+    margin-left: -80px;
+    display: inline-block;
 }
 
 .class .col .card {
-    width: 240px !important;
+    width: 180px !important;
+    display: inline-block;
+    margin-right: 15px;
 }
 
-.class .card img {
-    width: 140px;
-    
+/* Location */
+.location .background {
+    width: 1800px;
+    height: 359.31px;
+    margin-top: 200px;
+    background: #0F00BA;
+    transform: rotate(12.67deg);
+    margin-left: -100px;
+}
+
+.location .col-5 img{
+    height: 600px;
+    margin-top: -600px;
+    filter: drop-shadow(10px 15px 9px rgba(0, 0, 0, 0.25));
+}
+
+.location .col-7.text-location {
+    margin-top: -310px;
+    margin-left: 450px;
+    position: absolute;
+}
+
+.location .col-7 h1 {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.location .col-7 p {
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+/* Footer*/
+.footer {
+    height: 450px;
+    background-color: #0F00BA;
+    margin-top: 250px;
+}
+
+.footer .row.row-1 {
+    color: white;
+}
+
+.footer .col.col-logo {
+    position: absolute;
+    margin-bottom: auto;
+}
+
+.footer .col.col-informasi {
+
+}
+
+.footer .col.col-social {
+
+}
+
+.footer .row.row-2 {
+    color: white;
+}
+
+.footer .col.col-copyright {
+
+}
+
+.footer .col.col-created {
+
 }
